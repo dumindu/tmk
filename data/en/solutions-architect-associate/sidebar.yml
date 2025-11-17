@@ -1,0 +1,67 @@
+- title: Documentation
+  pages:
+    - title: Overview
+
+- title: Section 1
+  pages:
+    - title: Amazon Elastic Compute Cloud (EC2)
+    - title: Amazon Elastic Container Service (ECS)
+    - title: Amazon Elastic Container Registry (ECR)
+    - title: Amazon Elastic Kubernetes Service (EKS)
+    - title: AWS Lambda
+    - title: Amazon Virtual Private Cloud (VPC)
+    - title: Amazon Route 53
+    - title: Amazon Elastic Load Balancing (ELB)
+    - title: AWS Transfer for SFTP
+    - title: AWS Direct Connect
+
+- title: Section 2
+  pages:
+    - title: Amazon Simple Storage Service (S3)
+    - title: Amazon Elastic Block Store (EBS)
+    - title: Amazon Elastic File System (EFS)
+    - title: Amazon Relational-Database Service (RDS)
+    - title: Amazon Aurora
+    - title: Amazon DynamoDB
+    - title: Amazon Redshift
+    - title: Amazon Simple Queue Service (SQS)
+    - title: Amazon Simple Notification Service (SNS)
+    - title: Amazon API Gateway
+
+- title: Section 3
+  pages:
+    - title: Amazon Cognito
+    - title: Amazon CloudWatch
+    - title: AWS CloudTrail
+    - title: AWS Identity and Access Management (IAM)
+    - title: AWS Key Management Service (KMS)
+    - title: AWS Security Hub
+    - title: AWS CloudFormation
+    - title: AWS Systems Manager
+
+- title: Section 4
+  pages:
+    - title: AWS Well-Architected Framework
+    - title: AWS Core Services
+    - title: AWS Networking and Security Services
+    - title: AWS Deployment and Management Services
+    - title: AWS Cost Optimization Strategies
+
+- title: Section 5
+  pages:
+    - title: Amazon EventBridge
+    - title: AWS Step Functions
+    - title: Amazon Kinesis
+    - title: Amazon GuardDuty
+    - title: Amazon Inspector
+    - title: Amazon Macie
+    - title: AWS IAM Access Analyzer
+    - title: AWS CodePipeline
+    - title: AWS CodeBuild
+    - title: AWS CodeDeploy
+    - title: AWS CodeCommit
+
+- title: Questions
+  pages:
+    - title: General Questions
+    - title: AWS Questions

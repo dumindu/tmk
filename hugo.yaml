@@ -1,0 +1,70 @@
+theme: E25DX
+
+enableGitInfo: true
+
+publishDir: docs
+baseURL: https://dumindu.github.io/tmk
+
+defaultContentLanguage: en
+
+languages:
+  en:
+    weight: 1
+    languageName: English
+    languageCode: en-US
+    contentDir: content/en
+    title: TMK
+    params:
+      description: To my knowledge
+
+# To omit the Google Analytics script, put a ~ in place of the G-XXXXXXXXXX below.
+services:
+  googleAnalytics:
+    ID: ~
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      attribute:
+        block: true
+        title: true
+
+params:
+  project:
+    # To omit the startYear, put a ~ in its place.
+    startYear: ~
+    presentYear: 2025
+    github:
+      repo: ~
+    themeColor:
+      light: '#ffffff'
+      dark: '#101010'
+
+  author:
+    name: Nuwan
+    url: ~
+
+  home:
+    heading: General
+    headingSegment2: Knowledge
+    description: ~
+    getStartedPath: ~
+
+  enableOGXSEO: false # No automated OG image generation
+
+menus:
+  main:
+    - identifier: home
+      name: Home
+      pre: <i aria-hidden>🏡</i>
+      pageRef: /
+      weight: 1
+    - identifier: solutions-architect-associate
+      name: Solutions Architect - Associate
+      pre: <i aria-hidden>👨‍🎓</i>
+      pageRef: /solutions-architect-associate/
+      weight: 2
